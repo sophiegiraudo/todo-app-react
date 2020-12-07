@@ -17,3 +17,26 @@
 .item:nth-child(even) {
   background-color: white;
 }
+
+.checked {
+  text-decoration: line-through;
+}
+
+.removeButton {
+  border: none;
+  margin-left: 75%;
+  color: black;
+  background-color: transparent;
+}
+
+.removeButton:hover {
+  background-color: rgb(140, 140, 140);
+  border-radius: 5px;
+}
+
+.todoItem {
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
