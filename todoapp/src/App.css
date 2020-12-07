@@ -1,0 +1,19 @@
+.todo-app h1 {
+  text-align: center;
+  background-color: rgb(255, 227, 100);
+  padding: 2rem;
+}
+
+.todo-app {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(200, 200, 200);
+}
+
+.item:nth-child(even) {
+  background-color: white;
+}
